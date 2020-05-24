@@ -1,0 +1,1047 @@
+Mapping: scan Topology: torus Dimensions: 4 4 4
+         143 function calls (142 primitive calls) in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+        1    0.000    0.000    0.000    0.000 mapping.py:32(__init__)
+        2    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        1    0.000    0.000    0.000    0.000 mapping.py:657(map)
+        1    0.000    0.000    0.000    0.000 mapping.py:685(process_list)
+        1    0.000    0.000    0.000    0.000 mapping.py:697(<listcomp>)
+       65    0.000    0.000    0.000    0.000 mapping.py:733(path)
+        1    0.000    0.000    0.000    0.000 topology.py:57(size)
+      2/1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       64    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (154138506240, 1027590042, 296400000, 2964196992)
+WTAD-default : 71806009
+WTAD   : 90337586
+WTAD_AL: 155775098
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: sweep Topology: torus Dimensions: 4 4 4
+         143 function calls (142 primitive calls) in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+        1    0.000    0.000    0.000    0.000 mapping.py:32(__init__)
+        2    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        1    0.000    0.000    0.000    0.000 mapping.py:657(map)
+        1    0.000    0.000    0.000    0.000 mapping.py:685(process_list)
+        1    0.000    0.000    0.000    0.000 mapping.py:697(<listcomp>)
+       65    0.000    0.000    0.000    0.000 mapping.py:717(path)
+        1    0.000    0.000    0.000    0.000 topology.py:57(size)
+      2/1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       64    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (135166804992, 1001235593, 296400000, 2371331328)
+WTAD-default : 71806009
+WTAD   : 71806009
+WTAD_AL: 131452019
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: peano Topology: torus Dimensions: 4 4 4
+         5243 function calls (5044 primitive calls) in 0.007 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+        1    0.000    0.000    0.007    0.007 mapping.py:32(__init__)
+        2    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        1    0.000    0.000    0.007    0.007 mapping.py:657(map)
+        1    0.000    0.000    0.000    0.000 mapping.py:685(process_list)
+        1    0.000    0.000    0.000    0.000 mapping.py:697(<listcomp>)
+        1    0.000    0.000    0.000    0.000 mapping.py:699(check_dimensions)
+        1    0.000    0.000    0.000    0.000 mapping.py:706(is_power_of_2)
+        1    0.000    0.000    0.000    0.000 mapping.py:794(path)
+   265/67    0.001    0.000    0.007    0.000 mapping.py:802(peano)
+        1    0.000    0.000    0.000    0.000 topology.py:57(size)
+     1065    0.001    0.000    0.001    0.000 vector.py:10(__iter__)
+      201    0.000    0.000    0.001    0.000 vector.py:13(norm)
+      201    0.000    0.000    0.000    0.000 vector.py:19(<listcomp>)
+      108    0.000    0.000    0.001    0.000 vector.py:26(__neg__)
+      108    0.000    0.000    0.000    0.000 vector.py:27(<listcomp>)
+      216    0.001    0.000    0.002    0.000 vector.py:29(__add__)
+      216    0.000    0.000    0.000    0.000 vector.py:31(<listcomp>)
+      108    0.000    0.000    0.002    0.000 vector.py:35(__sub__)
+      324    0.001    0.000    0.003    0.000 vector.py:49(__floordiv__)
+      324    0.001    0.000    0.001    0.000 vector.py:53(<listcomp>)
+      652    0.000    0.000    0.000    0.000 vector.py:7(__init__)
+      2/1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       64    0.000    0.000    0.007    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+      201    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+      648    0.000    0.000    0.000    0.000 {built-in method math.ceil}
+      324    0.000    0.000    0.000    0.000 {built-in method math.floor}
+      201    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (87740703744, 577241473, 296400000, 592865664)
+WTAD-default : 71806009
+WTAD   : 41694507
+WTAD_AL: 78177586
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: gray Topology: torus Dimensions: 4 4 4
+         4361 function calls (4162 primitive calls) in 0.005 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+        1    0.000    0.000    0.005    0.005 mapping.py:32(__init__)
+        2    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        1    0.000    0.000    0.005    0.005 mapping.py:657(map)
+        1    0.000    0.000    0.000    0.000 mapping.py:685(process_list)
+        1    0.000    0.000    0.000    0.000 mapping.py:697(<listcomp>)
+        1    0.000    0.000    0.000    0.000 mapping.py:699(check_dimensions)
+        1    0.000    0.000    0.000    0.000 mapping.py:706(is_power_of_2)
+        1    0.000    0.000    0.000    0.000 mapping.py:827(path)
+   265/67    0.001    0.000    0.005    0.000 mapping.py:836(gray)
+        1    0.000    0.000    0.000    0.000 topology.py:57(size)
+      867    0.000    0.000    0.000    0.000 vector.py:10(__iter__)
+      201    0.000    0.000    0.001    0.000 vector.py:13(norm)
+      201    0.000    0.000    0.000    0.000 vector.py:19(<listcomp>)
+      126    0.000    0.000    0.000    0.000 vector.py:26(__neg__)
+      126    0.000    0.000    0.000    0.000 vector.py:27(<listcomp>)
+      144    0.001    0.000    0.001    0.000 vector.py:29(__add__)
+      144    0.000    0.000    0.000    0.000 vector.py:31(<listcomp>)
+       18    0.000    0.000    0.000    0.000 vector.py:35(__sub__)
+      252    0.001    0.000    0.002    0.000 vector.py:49(__floordiv__)
+      252    0.001    0.000    0.001    0.000 vector.py:53(<listcomp>)
+      526    0.000    0.000    0.000    0.000 vector.py:7(__init__)
+      2/1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       64    0.000    0.000    0.005    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+      201    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+      628    0.000    0.000    0.000    0.000 {built-in method math.ceil}
+      128    0.000    0.000    0.000    0.000 {built-in method math.floor}
+      201    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (154138506240, 885853485, 296400000, 1778531328)
+WTAD-default : 71806009
+WTAD   : 76439416
+WTAD_AL: 121029162
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: hilbert Topology: torus Dimensions: 4 4 4
+         5117 function calls (4918 primitive calls) in 0.007 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+        1    0.000    0.000    0.007    0.007 mapping.py:32(__init__)
+        2    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        1    0.000    0.000    0.007    0.007 mapping.py:657(map)
+        1    0.000    0.000    0.000    0.000 mapping.py:685(process_list)
+        1    0.000    0.000    0.000    0.000 mapping.py:697(<listcomp>)
+        1    0.000    0.000    0.000    0.000 mapping.py:699(check_dimensions)
+        1    0.000    0.000    0.000    0.000 mapping.py:706(is_power_of_2)
+        1    0.000    0.000    0.000    0.000 mapping.py:861(path)
+   265/67    0.001    0.000    0.007    0.000 mapping.py:872(hilbert)
+        1    0.000    0.000    0.000    0.000 topology.py:57(size)
+     1047    0.001    0.000    0.001    0.000 vector.py:10(__iter__)
+      201    0.001    0.000    0.001    0.000 vector.py:13(norm)
+      201    0.000    0.000    0.000    0.000 vector.py:19(<listcomp>)
+      144    0.000    0.000    0.001    0.000 vector.py:26(__neg__)
+      144    0.000    0.000    0.000    0.000 vector.py:27(<listcomp>)
+      198    0.001    0.000    0.001    0.000 vector.py:29(__add__)
+      198    0.000    0.000    0.000    0.000 vector.py:31(<listcomp>)
+       54    0.000    0.000    0.001    0.000 vector.py:35(__sub__)
+      306    0.001    0.000    0.003    0.000 vector.py:49(__floordiv__)
+      306    0.001    0.000    0.001    0.000 vector.py:53(<listcomp>)
+      652    0.000    0.000    0.000    0.000 vector.py:7(__init__)
+      2/1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       64    0.000    0.000    0.007    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+      201    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+      753    0.000    0.000    0.000    0.000 {built-in method math.ceil}
+      165    0.000    0.000    0.000    0.000 {built-in method math.floor}
+      201    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (144653706240, 826592608, 296400000, 1778531328)
+WTAD-default : 71806009
+WTAD   : 79334655
+WTAD_AL: 129714876
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: diagonal Topology: torus Dimensions: 4 4 4
+         143 function calls (142 primitive calls) in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+        1    0.000    0.000    0.000    0.000 mapping.py:32(__init__)
+        2    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        1    0.000    0.000    0.000    0.000 mapping.py:657(map)
+        1    0.000    0.000    0.000    0.000 mapping.py:685(process_list)
+        1    0.000    0.000    0.000    0.000 mapping.py:697(<listcomp>)
+       65    0.000    0.000    0.000    0.000 mapping.py:753(path)
+        1    0.000    0.000    0.000    0.000 topology.py:57(size)
+      2/1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       64    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (156510756864, 1022946124, 296400000, 2964196992)
+WTAD-default : 71806009
+WTAD   : 87442347
+WTAD_AL: 152301325
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: min-md Topology: torus Dimensions: 4 4 4
+         19132 function calls in 0.013 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 graph.py:1253(edges)
+        1    0.000    0.000    0.013    0.013 mapping.py:32(__init__)
+        1    0.000    0.000    0.013    0.013 mapping.py:588(map)
+      132    0.000    0.000    0.000    0.000 mapping.py:591(helper)
+        4    0.000    0.000    0.000    0.000 mapping.py:610(<genexpr>)
+       72    0.006    0.000    0.012    0.000 mapping.py:613(bfs)
+     4200    0.002    0.000    0.003    0.000 mapping.py:620(is_full)
+      727    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        1    0.000    0.000    0.000    0.000 reportviews.py:642(__init__)
+      264    0.000    0.000    0.000    0.000 reportviews.py:655(<lambda>)
+        1    0.000    0.000    0.000    0.000 reportviews.py:714(__len__)
+      133    0.000    0.000    0.000    0.000 reportviews.py:715(<genexpr>)
+      266    0.000    0.000    0.000    0.000 reportviews.py:717(__iter__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:906(__init__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:933(__call__)
+     4846    0.002    0.000    0.002    0.000 topology.py:146(neighbours)
+        1    0.000    0.000    0.000    0.000 topology.py:49(dim)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+      867    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+     1173    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+     1173    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     4272    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+      131    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      726    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.deque' objects}
+      132    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (183193388928, 1034990898, 296400000, 3557193984)
+WTAD-default : 71806009
+Mapping: topo_aware Topology: torus Dimensions: 4 4 4
+         2195499 function calls (2195498 primitive calls) in 0.958 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 copy.py:125(_copy_with_constructor)
+        1    0.000    0.000    0.000    0.000 copy.py:67(copy)
+  1397760    0.218    0.000    0.218    0.000 graph.py:1168(has_edge)
+    32295    0.007    0.000    0.007    0.000 graph.py:1310(get_edge_data)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+        1    0.000    0.000    0.000    0.000 graph.py:646(nodes)
+        1    0.000    0.000    0.958    0.958 mapping.py:32(__init__)
+        1    0.001    0.001    0.958    0.958 mapping.py:455(map)
+        1    0.000    0.000    0.000    0.000 mapping.py:460(<setcomp>)
+    89440    0.052    0.000    0.052    0.000 mapping.py:467(_to_xyz)
+    89440    0.484    0.000    0.926    0.000 mapping.py:474(estimation_func)
+     2080    0.031    0.000    0.956    0.000 mapping.py:543(criticality)
+   121801    0.019    0.000    0.019    0.000 mapping.py:65(topology)
+        1    0.000    0.000    0.000    0.000 reportviews.py:167(__init__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:174(__iter__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:189(__call__)
+    29825    0.018    0.000    0.023    0.000 routing.py:53(manhattan_distance)
+   220665    0.055    0.000    0.055    0.000 topology.py:146(neighbours)
+        2    0.000    0.000    0.000    0.000 topology.py:18(__len__)
+      384    0.000    0.000    0.000    0.000 topology.py:25(dx)
+      256    0.000    0.000    0.000    0.000 topology.py:33(dy)
+       64    0.000    0.000    0.000    0.000 topology.py:41(dz)
+    89440    0.023    0.000    0.023    0.000 topology.py:49(dim)
+       64    0.000    0.000    0.000    0.000 topology.py:62(to_xyz)
+    32295    0.044    0.000    0.099    0.000 topology.py:90(are_neighbors)
+    89475    0.005    0.000    0.005    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+      5/4    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       64    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      128    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (105526017024, 694250113, 296400000, 2371462656)
+WTAD-default : 71806009
+WTAD   : 64858272
+WTAD_AL: 119872414
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: bipartition Topology: torus Dimensions: 4 4 4
+         85606 function calls (84784 primitive calls) in 0.101 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      126    0.003    0.000    0.076    0.001 __init__.py:145(partition)
+      126    0.001    0.000    0.003    0.000 __init__.py:230(<listcomp>)
+      894    0.000    0.000    0.000    0.000 __init__.py:231(<genexpr>)
+      126    0.001    0.000    0.002    0.000 __init__.py:234(<listcomp>)
+      894    0.000    0.000    0.000    0.000 __init__.py:235(<genexpr>)
+      126    0.005    0.000    0.015    0.000 __init__.py:238(<listcomp>)
+     1533    0.000    0.000    0.000    0.000 __init__.py:239(<genexpr>)
+      126    0.000    0.000    0.000    0.000 __init__.py:259(<listcomp>)
+      252    0.000    0.000    0.000    0.000 __init__.py:29(_zero_numbering)
+      126    0.004    0.000    0.009    0.000 __init__.py:42(_convert_graph)
+     3158    0.001    0.000    0.001    0.000 __init__.py:50(<genexpr>)
+      126    0.000    0.000    0.077    0.001 __init__.py:80(_convert_exceptions)
+      126    0.000    0.000    0.000    0.000 _bootlocale.py:23(getpreferredencoding)
+        3    0.000    0.000    0.000    0.000 _collections_abc.py:592(get)
+      126    0.000    0.000    0.000    0.000 codecs.py:185(__init__)
+      126    0.000    0.000    0.000    0.000 codecs.py:213(setstate)
+      252    0.000    0.000    0.001    0.000 contextlib.py:131(helper)
+      252    0.001    0.000    0.001    0.000 contextlib.py:37(__init__)
+      252    0.000    0.000    0.006    0.000 contextlib.py:57(__enter__)
+      252    0.001    0.000    0.003    0.000 contextlib.py:63(__exit__)
+     7852    0.002    0.000    0.002    0.000 coreviews.py:44(__init__)
+     1536    0.001    0.000    0.001    0.000 coreviews.py:50(__iter__)
+     2390    0.001    0.000    0.001    0.000 coreviews.py:53(__getitem__)
+     3926    0.003    0.000    0.004    0.000 coreviews.py:80(__getitem__)
+      126    0.000    0.000    0.077    0.001 decorator.py:decorator-gen-678>:1(partition)
+      126    0.000    0.000    0.078    0.001 decorator.py:decorator-gen-679>:1(partition)
+      126    0.000    0.000    0.079    0.001 decorator.py:decorator-gen-680>:1(partition)
+  252/126    0.001    0.000    0.078    0.001 decorators.py:64(_not_implemented_for)
+     8064    0.002    0.000    0.002    0.000 graph.py:1168(has_edge)
+      798    0.000    0.000    0.000    0.000 graph.py:1310(get_edge_data)
+      504    0.000    0.000    0.000    0.000 graph.py:1435(is_multigraph)
+      504    0.000    0.000    0.000    0.000 graph.py:1439(is_directed)
+      253    0.001    0.000    0.001    0.000 graph.py:289(__init__)
+     3926    0.003    0.000    0.004    0.000 graph.py:336(adj)
+      756    0.000    0.000    0.001    0.000 graph.py:385(__iter__)
+      570    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+     3926    0.004    0.000    0.012    0.000 graph.py:434(__getitem__)
+      252    0.001    0.000    0.001    0.000 graph.py:505(add_nodes_from)
+     1664    0.002    0.000    0.002    0.000 graph.py:646(nodes)
+     2142    0.005    0.000    0.005    0.000 graph.py:841(add_edge)
+        1    0.000    0.000    0.101    0.101 mapping.py:32(__init__)
+        1    0.001    0.001    0.101    0.101 mapping.py:361(map)
+        1    0.000    0.000    0.000    0.000 mapping.py:364(<setcomp>)
+       63    0.003    0.000    0.047    0.001 mapping.py:380(graph_node_partition)
+       63    0.003    0.000    0.047    0.001 mapping.py:403(graph_partition)
+    127/1    0.001    0.000    0.097    0.097 mapping.py:430(bipartitioning_mapping)
+      578    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+      126    0.001    0.000    0.004    0.000 os.py:1026(fdopen)
+        3    0.000    0.000    0.000    0.000 os.py:678(__getitem__)
+        3    0.000    0.000    0.000    0.000 os.py:754(encode)
+        3    0.000    0.000    0.000    0.000 os.py:772(getenv)
+      127    0.001    0.000    0.001    0.000 posixpath.py:318(normpath)
+      127    0.000    0.000    0.002    0.000 posixpath.py:355(abspath)
+      254    0.000    0.000    0.000    0.000 posixpath.py:39(_get_sep)
+      127    0.000    0.000    0.000    0.000 posixpath.py:61(isabs)
+      127    0.000    0.000    0.001    0.000 posixpath.py:71(join)
+     1016    0.001    0.000    0.002    0.000 random.py:220(_randbelow)
+     1016    0.001    0.000    0.003    0.000 random.py:250(choice)
+        2    0.000    0.000    0.000    0.000 random.py:84(__init__)
+        2    0.000    0.000    0.000    0.000 random.py:93(seed)
+     1664    0.000    0.000    0.000    0.000 reportviews.py:167(__init__)
+      128    0.000    0.000    0.000    0.000 reportviews.py:171(__len__)
+      128    0.000    0.000    0.000    0.000 reportviews.py:174(__iter__)
+     1536    0.000    0.000    0.000    0.000 reportviews.py:177(__getitem__)
+      126    0.000    0.000    0.001    0.000 tempfile.py:118(_sanitize_params)
+      127    0.000    0.000    0.000    0.000 tempfile.py:146(rng)
+      127    0.001    0.000    0.004    0.000 tempfile.py:157(__next__)
+      127    0.000    0.000    0.003    0.000 tempfile.py:160(<listcomp>)
+        1    0.000    0.000    0.000    0.000 tempfile.py:163(_candidate_tempdir_list)
+        1    0.000    0.000    0.001    0.001 tempfile.py:188(_get_default_tempdir)
+      126    0.000    0.000    0.000    0.000 tempfile.py:235(_get_candidate_names)
+      126    0.001    0.000    0.013    0.000 tempfile.py:249(_mkstemp_inner)
+      126    0.000    0.000    0.001    0.000 tempfile.py:289(gettempdir)
+      126    0.001    0.000    0.019    0.000 tempfile.py:570(TemporaryFile)
+      126    0.000    0.000    0.000    0.000 tempfile.py:97(_infer_return_type)
+      448    0.000    0.000    0.000    0.000 topology.py:146(neighbours)
+        2    0.000    0.000    0.000    0.000 topology.py:18(__len__)
+     1536    0.000    0.000    0.000    0.000 topology.py:25(dx)
+     1280    0.000    0.000    0.000    0.000 topology.py:33(dy)
+      512    0.000    0.000    0.000    0.000 topology.py:41(dz)
+      128    0.001    0.000    0.001    0.000 topology.py:62(to_xyz)
+      384    0.001    0.000    0.001    0.000 topology.py:77(to_idx)
+      126    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+      378    0.001    0.000    0.001    0.000 {built-in method builtins.all}
+      379    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      512    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+     2420    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+3318/2748    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+      631    0.004    0.000    0.013    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        2    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+      253    0.005    0.000    0.006    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.close}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+      127    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+      127    0.005    0.000    0.005    0.000 {built-in method posix.open}
+      127    0.002    0.000    0.002    0.000 {built-in method posix.unlink}
+        2    0.000    0.000    0.000    0.000 {built-in method posix.urandom}
+        2    0.000    0.000    0.000    0.000 {function Random.seed at 0x2b534a4e4a60}
+        2    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+     1792    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+     1016    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+      768    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+      127    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+      769    0.001    0.000    0.002    0.000 {method 'extend' of 'list' objects}
+     6068    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+     1763    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      254    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+      127    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+      508    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+     2395    0.001    0.000    0.001    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.BufferedWriter' objects}
+      126    0.012    0.000    0.040    0.000 {nxmetis._metis.part_graph}
+      126    0.000    0.000    0.000    0.000 {nxmetis._metis.redirect_stdout}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (134575449600, 810695480, 296400000, 2371462656)
+WTAD-default : 71806009
+WTAD   : 88311432
+WTAD_AL: 152880309
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: greedy Topology: torus Dimensions: 4 4 4
+         75435 function calls (75433 primitive calls) in 0.062 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      128    0.000    0.000    0.000    0.000 coreviews.py:44(__init__)
+       64    0.000    0.000    0.000    0.000 coreviews.py:50(__iter__)
+       64    0.000    0.000    0.000    0.000 coreviews.py:80(__getitem__)
+      508    0.000    0.000    0.000    0.000 graph.py:1310(get_edge_data)
+        1    0.000    0.000    0.000    0.000 graph.py:1376(degree)
+       64    0.000    0.000    0.000    0.000 graph.py:1435(is_multigraph)
+       64    0.000    0.000    0.000    0.000 graph.py:1439(is_directed)
+        1    0.000    0.000    0.000    0.000 graph.py:289(__init__)
+       64    0.000    0.000    0.000    0.000 graph.py:336(adj)
+        1    0.000    0.000    0.000    0.000 graph.py:385(__iter__)
+       64    0.000    0.000    0.000    0.000 graph.py:403(__contains__)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+       64    0.000    0.000    0.000    0.000 graph.py:434(__getitem__)
+        3    0.000    0.000    0.000    0.000 graph.py:646(nodes)
+      384    0.001    0.000    0.002    0.000 graph.py:841(add_edge)
+        1    0.001    0.001    0.062    0.062 mapping.py:248(map)
+       63    0.001    0.000    0.001    0.000 mapping.py:289(dijkstra_closest_vertex)
+        1    0.001    0.001    0.004    0.004 mapping.py:298(greedy_graph_embedding_algo)
+        1    0.000    0.000    0.000    0.000 mapping.py:301(<listcomp>)
+       64    0.000    0.000    0.000    0.000 mapping.py:305(<lambda>)
+        1    0.000    0.000    0.000    0.000 mapping.py:305(<listcomp>)
+        3    0.000    0.000    0.000    0.000 mapping.py:318(<lambda>)
+        1    0.000    0.000    0.062    0.062 mapping.py:32(__init__)
+      828    0.000    0.000    0.000    0.000 mapping.py:339(<lambda>)
+      577    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        3    0.000    0.000    0.000    0.000 reportviews.py:167(__init__)
+        2    0.000    0.000    0.000    0.000 reportviews.py:171(__len__)
+        2    0.000    0.000    0.000    0.000 reportviews.py:174(__iter__)
+        3    0.000    0.000    0.000    0.000 reportviews.py:189(__call__)
+        2    0.000    0.000    0.000    0.000 reportviews.py:334(__init__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:342(__call__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:380(__len__)
+       65    0.000    0.000    0.000    0.000 reportviews.py:442(__iter__)
+      320    0.000    0.000    0.000    0.000 reportviews.py:451(<genexpr>)
+      448    0.000    0.000    0.000    0.000 topology.py:146(neighbours)
+        1    0.000    0.000    0.000    0.000 topology.py:18(__len__)
+     1536    0.000    0.000    0.000    0.000 topology.py:25(dx)
+     1280    0.000    0.000    0.000    0.000 topology.py:33(dy)
+      512    0.000    0.000    0.000    0.000 topology.py:41(dz)
+      128    0.001    0.000    0.001    0.000 topology.py:62(to_xyz)
+      384    0.001    0.000    0.002    0.000 topology.py:77(to_idx)
+       64    0.000    0.000    0.052    0.001 weighted.py:304(single_source_dijkstra_path_length)
+       64    0.000    0.000    0.000    0.000 weighted.py:50(_weight_function)
+       64    0.000    0.000    0.052    0.001 weighted.py:548(multi_source_dijkstra_path_length)
+       64    0.032    0.001    0.051    0.001 weighted.py:755(_dijkstra_multisource)
+    24576    0.010    0.000    0.014    0.000 weighted.py:87(<lambda>)
+       65    0.000    0.000    0.052    0.001 weighted.py:995(all_pairs_dijkstra_path_length)
+     4096    0.003    0.000    0.003    0.000 {built-in method _heapq.heappop}
+     4096    0.001    0.000    0.001    0.000 {built-in method _heapq.heappush}
+       64    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       67    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+    73/71    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+     4096    0.001    0.000    0.001    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       65    0.001    0.000    0.001    0.000 {built-in method builtins.sorted}
+       64    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+      124    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    25224    0.004    0.000    0.004    0.000 {method 'get' of 'dict' objects}
+     4097    0.001    0.000    0.001    0.000 {method 'items' of 'dict' objects}
+       64    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+      185    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       64    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+      385    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       64    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (173703532800, 1046406825, 296400000, 4149928320)
+WTAD-default : 71806009
+WTAD   : 101630489
+WTAD_AL: 167936701
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: greedyALLC Topology: torus Dimensions: 4 4 4
+         159564 function calls (159497 primitive calls) in 0.104 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     4160    0.001    0.000    0.001    0.000 coreviews.py:44(__init__)
+     2080    0.001    0.000    0.001    0.000 coreviews.py:50(__iter__)
+     2080    0.002    0.000    0.002    0.000 coreviews.py:80(__getitem__)
+     3748    0.001    0.000    0.001    0.000 graph.py:1310(get_edge_data)
+        1    0.000    0.000    0.000    0.000 graph.py:1376(degree)
+        1    0.000    0.000    0.000    0.000 graph.py:289(__init__)
+     2080    0.002    0.000    0.002    0.000 graph.py:336(adj)
+       67    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+     2080    0.002    0.000    0.006    0.000 graph.py:434(__getitem__)
+       65    0.000    0.000    0.000    0.000 graph.py:646(nodes)
+      384    0.001    0.000    0.001    0.000 graph.py:841(add_edge)
+        1    0.011    0.011    0.104    0.104 mapping.py:156(map)
+        1    0.011    0.011    0.069    0.069 mapping.py:184(compute_tP)
+       64    0.000    0.000    0.000    0.000 mapping.py:212(<lambda>)
+       64    0.000    0.000    0.000    0.000 mapping.py:213(<lambda>)
+        1    0.000    0.000    0.000    0.000 mapping.py:215(<listcomp>)
+        1    0.000    0.000    0.000    0.000 mapping.py:216(<listcomp>)
+        1    0.000    0.000    0.104    0.104 mapping.py:32(__init__)
+    12393    0.002    0.000    0.002    0.000 mapping.py:65(topology)
+       65    0.000    0.000    0.000    0.000 reportviews.py:167(__init__)
+       65    0.000    0.000    0.000    0.000 reportviews.py:174(__iter__)
+       65    0.000    0.000    0.000    0.000 reportviews.py:189(__call__)
+        2    0.000    0.000    0.000    0.000 reportviews.py:334(__init__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:342(__call__)
+       65    0.000    0.000    0.000    0.000 reportviews.py:442(__iter__)
+      320    0.000    0.000    0.000    0.000 reportviews.py:451(<genexpr>)
+     3648    0.004    0.000    0.005    0.000 routing.py:53(manhattan_distance)
+    27712    0.012    0.000    0.012    0.000 topology.py:146(neighbours)
+        1    0.000    0.000    0.000    0.000 topology.py:18(__len__)
+    33744    0.006    0.000    0.006    0.000 topology.py:25(dx)
+    25168    0.005    0.000    0.005    0.000 topology.py:33(dy)
+     8296    0.001    0.000    0.001    0.000 topology.py:41(dz)
+     4288    0.021    0.000    0.030    0.000 topology.py:62(to_xyz)
+     4008    0.008    0.000    0.012    0.000 topology.py:77(to_idx)
+     4032    0.010    0.000    0.021    0.000 topology.py:90(are_neighbors)
+    10944    0.001    0.000    0.001    0.000 {built-in method builtins.abs}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+     2145    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+   135/68    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       65    0.000    0.000    0.001    0.000 {built-in method builtins.max}
+       65    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+      128    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+     4096    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      648    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      128    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      385    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       64    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (116789217024, 739172260, 296400000, 1778596992)
+WTAD-default : 71806009
+WTAD   : 68621760
+WTAD_AL: 125083072
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: udfs Topology: torus Dimensions: 4 4 4
+         97809 function calls (97745 primitive calls) in 0.067 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     4032    0.003    0.000    0.004    0.000 _collections_abc.py:607(keys)
+     4032    0.001    0.000    0.001    0.000 _collections_abc.py:631(__init__)
+    28224    0.007    0.000    0.009    0.000 _collections_abc.py:652(__iter__)
+     4095    0.001    0.000    0.001    0.000 coreviews.py:44(__init__)
+     4032    0.002    0.000    0.002    0.000 coreviews.py:50(__iter__)
+    24192    0.005    0.000    0.005    0.000 coreviews.py:53(__getitem__)
+     4032    0.004    0.000    0.004    0.000 coreviews.py:80(__getitem__)
+      190    0.000    0.000    0.000    0.000 graph.py:1209(neighbors)
+      128    0.000    0.000    0.000    0.000 graph.py:1310(get_edge_data)
+        1    0.000    0.000    0.000    0.000 graph.py:1376(degree)
+        1    0.000    0.000    0.000    0.000 graph.py:289(__init__)
+       63    0.000    0.000    0.000    0.000 graph.py:336(adj)
+       63    0.000    0.000    0.000    0.000 graph.py:403(__contains__)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+      384    0.001    0.000    0.001    0.000 graph.py:841(add_edge)
+        1    0.001    0.001    0.067    0.067 mapping.py:109(map)
+        1    0.000    0.000    0.062    0.062 mapping.py:119(UDFS_algorithm)
+       64    0.000    0.000    0.000    0.000 mapping.py:121(<lambda>)
+        1    0.000    0.000    0.000    0.000 mapping.py:121(<listcomp>)
+        1    0.000    0.000    0.000    0.000 mapping.py:122(<setcomp>)
+     64/1    0.002    0.000    0.062    0.062 mapping.py:130(map_next)
+      128    0.000    0.000    0.000    0.000 mapping.py:136(<lambda>)
+       63    0.000    0.000    0.000    0.000 mapping.py:136(<listcomp>)
+     4032    0.001    0.000    0.001    0.000 mapping.py:137(<lambda>)
+       63    0.001    0.000    0.001    0.000 mapping.py:137(<listcomp>)
+        1    0.000    0.000    0.067    0.067 mapping.py:32(__init__)
+      640    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        2    0.000    0.000    0.000    0.000 reportviews.py:334(__init__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:342(__call__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:380(__len__)
+       65    0.000    0.000    0.000    0.000 reportviews.py:442(__iter__)
+      320    0.000    0.000    0.000    0.000 reportviews.py:451(<genexpr>)
+      448    0.000    0.000    0.000    0.000 topology.py:146(neighbours)
+        1    0.000    0.000    0.000    0.000 topology.py:18(__len__)
+     1662    0.000    0.000    0.000    0.000 topology.py:25(dx)
+     1406    0.000    0.000    0.000    0.000 topology.py:33(dy)
+      575    0.000    0.000    0.000    0.000 topology.py:41(dz)
+      128    0.001    0.000    0.001    0.000 topology.py:62(to_xyz)
+      447    0.001    0.000    0.002    0.000 topology.py:77(to_idx)
+       63    0.002    0.000    0.055    0.001 unweighted.py:25(single_source_shortest_path_length)
+     4095    0.007    0.000    0.053    0.000 unweighted.py:69(_single_shortest_path_length)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+     4222    0.001    0.000    0.001    0.000 {built-in method builtins.iter}
+      5/4    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+      127    0.003    0.000    0.004    0.000 {built-in method builtins.sorted}
+       64    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.setrecursionlimit}
+       64    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      128    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      648    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      127    0.000    0.000    0.000    0.000 {method 'issubset' of 'set' objects}
+       64    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       64    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       64    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+     4417    0.024    0.000    0.042    0.000 {method 'update' of 'dict' objects}
+       64    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (142282374912, 841907544, 296400000, 2964196992)
+WTAD-default : 71806009
+WTAD   : 83389014
+WTAD_AL: 148826590
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: pacmap Topology: torus Dimensions: 4 4 4
+         273257 function calls (273256 primitive calls) in 0.160 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     4096    0.002    0.000    0.003    0.000 _collections_abc.py:607(keys)
+     4096    0.001    0.000    0.001    0.000 _collections_abc.py:631(__init__)
+    20480    0.005    0.000    0.007    0.000 _collections_abc.py:652(__iter__)
+     4160    0.001    0.000    0.001    0.000 coreviews.py:44(__init__)
+     4096    0.002    0.000    0.002    0.000 coreviews.py:50(__iter__)
+    16384    0.003    0.000    0.003    0.000 coreviews.py:53(__getitem__)
+     4096    0.003    0.000    0.004    0.000 coreviews.py:80(__getitem__)
+        1    0.000    0.000    0.041    0.041 distance_measures.py:193(eccentricity)
+        1    0.000    0.000    0.041    0.041 distance_measures.py:332(center)
+        1    0.000    0.000    0.000    0.000 distance_measures.py:355(<listcomp>)
+    43680    0.009    0.000    0.009    0.000 graph.py:1168(has_edge)
+      816    0.000    0.000    0.000    0.000 graph.py:1310(get_edge_data)
+       64    0.000    0.000    0.000    0.000 graph.py:1435(is_multigraph)
+       64    0.000    0.000    0.000    0.000 graph.py:1439(is_directed)
+        1    0.000    0.000    0.000    0.000 graph.py:1844(nbunch_iter)
+        1    0.000    0.000    0.000    0.000 graph.py:289(__init__)
+       64    0.000    0.000    0.000    0.000 graph.py:336(adj)
+      129    0.000    0.000    0.000    0.000 graph.py:403(__contains__)
+        1    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+        3    0.000    0.000    0.000    0.000 graph.py:646(nodes)
+        1    0.000    0.000    0.000    0.000 graph.py:800(order)
+      384    0.001    0.000    0.001    0.000 graph.py:841(add_edge)
+        1    0.000    0.000    0.160    0.160 mapping.py:32(__init__)
+     4202    0.001    0.000    0.001    0.000 mapping.py:65(topology)
+     7296    0.006    0.000    0.006    0.000 mapping_compl.py:30(_to_xyz)
+        1    0.007    0.007    0.062    0.062 mapping_compl.py:37(Center_node_selection)
+        1    0.020    0.020    0.160    0.160 mapping_compl.py:407(map)
+        1    0.000    0.000    0.000    0.000 mapping_compl.py:415(<setcomp>)
+        1    0.000    0.000    0.000    0.000 mapping_compl.py:416(<setcomp>)
+     3648    0.001    0.000    0.001    0.000 mapping_compl.py:42(<lambda>)
+       64    0.000    0.000    0.000    0.000 mapping_compl.py:42(<listcomp>)
+     2016    0.000    0.000    0.000    0.000 mapping_compl.py:465(<lambda>)
+       63    0.000    0.000    0.000    0.000 mapping_compl.py:465(<listcomp>)
+        3    0.000    0.000    0.000    0.000 reportviews.py:167(__init__)
+        3    0.000    0.000    0.000    0.000 reportviews.py:174(__iter__)
+        3    0.000    0.000    0.000    0.000 reportviews.py:189(__call__)
+     7272    0.007    0.000    0.008    0.000 routing.py:53(manhattan_distance)
+      448    0.000    0.000    0.000    0.000 topology.py:146(neighbours)
+        1    0.000    0.000    0.000    0.000 topology.py:18(__len__)
+    23280    0.003    0.000    0.003    0.000 topology.py:25(dx)
+    15776    0.002    0.000    0.002    0.000 topology.py:33(dy)
+     4136    0.001    0.000    0.001    0.000 topology.py:41(dz)
+        1    0.000    0.000    0.000    0.000 topology.py:49(dim)
+     3752    0.013    0.000    0.019    0.000 topology.py:62(to_xyz)
+      384    0.001    0.000    0.002    0.000 topology.py:77(to_idx)
+       64    0.001    0.000    0.040    0.001 unweighted.py:25(single_source_shortest_path_length)
+     4160    0.006    0.000    0.039    0.000 unweighted.py:69(_single_shortest_path_length)
+       64    0.000    0.000    0.041    0.001 weighted.py:304(single_source_dijkstra_path_length)
+       64    0.000    0.000    0.000    0.000 weighted.py:50(_weight_function)
+       64    0.000    0.000    0.041    0.001 weighted.py:548(multi_source_dijkstra_path_length)
+       64    0.025    0.000    0.040    0.001 weighted.py:755(_dijkstra_multisource)
+    21888    0.008    0.000    0.011    0.000 weighted.py:87(<lambda>)
+     3648    0.002    0.000    0.002    0.000 {built-in method _heapq.heappop}
+     3648    0.001    0.000    0.001    0.000 {built-in method _heapq.heappush}
+    21816    0.002    0.000    0.002    0.000 {built-in method builtins.abs}
+       64    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+     4100    0.001    0.000    0.001    0.000 {built-in method builtins.iter}
+  132/131    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       65    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+     3648    0.001    0.000    0.001    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+      127    0.003    0.000    0.004    0.000 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {built-in method math.floor}
+       64    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       64    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      126    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    25896    0.003    0.000    0.003    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+     3776    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       63    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+      128    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+     4481    0.016    0.000    0.030    0.000 {method 'update' of 'dict' objects}
+       65    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (87740703744, 577241473, 296400000, 592865664)
+WTAD-default : 71806009
+WTAD   : 41694507
+WTAD_AL: 78177586
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: FHGreedy Topology: torus Dimensions: 4 4 4
+         49419 function calls (49295 primitive calls) in 0.049 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      778    0.001    0.000    0.001    0.000 _collections_abc.py:611(items)
+      778    0.000    0.000    0.000    0.000 _collections_abc.py:631(__init__)
+     5446    0.006    0.000    0.008    0.000 _collections_abc.py:675(__iter__)
+      124    0.001    0.000    0.031    0.000 astar.py:137(astar_path_length)
+      278    0.001    0.000    0.001    0.000 astar.py:171(<genexpr>)
+      124    0.011    0.000    0.027    0.000 astar.py:22(astar_path)
+     2230    0.000    0.000    0.000    0.000 astar.py:78(heuristic)
+      970    0.003    0.000    0.005    0.000 breadth_first_search.py:23(generic_bfs_edges)
+      970    0.001    0.000    0.005    0.000 breadth_first_search.py:90(bfs_edges)
+     1864    0.001    0.000    0.001    0.000 coreviews.py:44(__init__)
+      778    0.001    0.000    0.001    0.000 coreviews.py:50(__iter__)
+     4822    0.001    0.000    0.001    0.000 coreviews.py:53(__getitem__)
+      932    0.001    0.000    0.001    0.000 coreviews.py:80(__getitem__)
+      124    0.000    0.000    0.028    0.000 decorator.py:decorator-gen-336>:1(astar_path)
+      124    0.001    0.000    0.028    0.000 decorators.py:64(_not_implemented_for)
+     1036    0.001    0.000    0.001    0.000 graph.py:1209(neighbors)
+      255    0.000    0.000    0.000    0.000 graph.py:1310(get_edge_data)
+        1    0.000    0.000    0.000    0.000 graph.py:1376(degree)
+      248    0.000    0.000    0.000    0.000 graph.py:1435(is_multigraph)
+      248    0.000    0.000    0.000    0.000 graph.py:1439(is_directed)
+        1    0.000    0.000    0.000    0.000 graph.py:289(__init__)
+      932    0.001    0.000    0.001    0.000 graph.py:336(adj)
+      496    0.000    0.000    0.000    0.000 graph.py:403(__contains__)
+      124    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+      932    0.001    0.000    0.004    0.000 graph.py:434(__getitem__)
+        3    0.000    0.000    0.000    0.000 graph.py:646(nodes)
+      384    0.001    0.000    0.002    0.000 graph.py:841(add_edge)
+        1    0.000    0.000    0.049    0.049 mapping.py:32(__init__)
+      577    0.000    0.000    0.000    0.000 mapping.py:65(topology)
+        1    0.002    0.002    0.049    0.049 mapping_compl.py:304(map)
+        1    0.000    0.000    0.000    0.000 mapping_compl.py:312(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 mapping_compl.py:314(<setcomp>)
+        1    0.000    0.000    0.000    0.000 mapping_compl.py:315(<setcomp>)
+       63    0.002    0.000    0.038    0.001 mapping_compl.py:320(GetBestNode)
+       64    0.000    0.000    0.000    0.000 mapping_compl.py:347(<lambda>)
+        1    0.000    0.000    0.000    0.000 mapping_compl.py:347(<listcomp>)
+     2016    0.000    0.000    0.000    0.000 mapping_compl.py:383(<lambda>)
+        1    0.000    0.000    0.001    0.001 mapping_compl.py:400(<dictcomp>)
+        3    0.000    0.000    0.000    0.000 reportviews.py:167(__init__)
+        3    0.000    0.000    0.000    0.000 reportviews.py:174(__iter__)
+        3    0.000    0.000    0.000    0.000 reportviews.py:189(__call__)
+        2    0.000    0.000    0.000    0.000 reportviews.py:334(__init__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:342(__call__)
+        1    0.000    0.000    0.000    0.000 reportviews.py:380(__len__)
+       65    0.000    0.000    0.001    0.000 reportviews.py:442(__iter__)
+      320    0.000    0.000    0.000    0.000 reportviews.py:451(<genexpr>)
+      448    0.000    0.000    0.000    0.000 topology.py:146(neighbours)
+        1    0.000    0.000    0.000    0.000 topology.py:18(__len__)
+     1536    0.000    0.000    0.000    0.000 topology.py:25(dx)
+     1280    0.000    0.000    0.000    0.000 topology.py:33(dy)
+      512    0.000    0.000    0.000    0.000 topology.py:41(dz)
+      128    0.001    0.000    0.001    0.000 topology.py:62(to_xyz)
+      384    0.001    0.000    0.002    0.000 topology.py:77(to_idx)
+      902    0.001    0.000    0.001    0.000 {built-in method _heapq.heappop}
+     2230    0.001    0.000    0.001    0.000 {built-in method _heapq.heappush}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+     1817    0.001    0.000    0.001    0.000 {built-in method builtins.iter}
+  378/254    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+     4154    0.001    0.000    0.001    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       64    0.002    0.000    0.003    0.000 {built-in method builtins.sorted}
+      188    0.000    0.000    0.002    0.000 {built-in method builtins.sum}
+      850    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      722    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      154    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     4323    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+       63    0.000    0.000    0.000    0.000 {method 'intersection' of 'set' objects}
+       63    0.000    0.000    0.000    0.000 {method 'isdisjoint' of 'set' objects}
+      128    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       64    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+      195    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+      128    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+      124    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+      385    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       64    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (137541156864, 833582769, 296400000, 2371396992)
+WTAD-default : 71806009
+WTAD   : 83389591
+WTAD_AL: 141878019
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
+Mapping: bokhari Topology: torus Dimensions: 4 4 4
+         640134 function calls (640106 primitive calls) in 0.373 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        6    0.000    0.000    0.000    0.000 __init__.py:1039(emit)
+        6    0.000    0.000    0.000    0.000 __init__.py:118(getLevelName)
+        6    0.000    0.000    0.001    0.000 __init__.py:1269(info)
+        6    0.000    0.000    0.000    0.000 __init__.py:1347(findCaller)
+        6    0.000    0.000    0.000    0.000 __init__.py:1377(makeRecord)
+        6    0.000    0.000    0.001    0.000 __init__.py:1392(_log)
+        6    0.000    0.000    0.001    0.000 __init__.py:1417(handle)
+        6    0.000    0.000    0.000    0.000 __init__.py:1471(callHandlers)
+        6    0.000    0.000    0.000    0.000 __init__.py:149(<lambda>)
+        6    0.000    0.000    0.000    0.000 __init__.py:1501(getEffectiveLevel)
+        6    0.000    0.000    0.000    0.000 __init__.py:1515(isEnabledFor)
+        6    0.000    0.000    0.000    0.000 __init__.py:243(__init__)
+        6    0.000    0.000    0.000    0.000 __init__.py:321(getMessage)
+        6    0.000    0.000    0.000    0.000 __init__.py:379(usesTime)
+        6    0.000    0.000    0.000    0.000 __init__.py:382(format)
+        6    0.000    0.000    0.000    0.000 __init__.py:487(formatTime)
+        6    0.000    0.000    0.000    0.000 __init__.py:532(usesTime)
+        6    0.000    0.000    0.000    0.000 __init__.py:538(formatMessage)
+        6    0.000    0.000    0.000    0.000 __init__.py:554(format)
+       12    0.000    0.000    0.000    0.000 __init__.py:695(filter)
+       12    0.000    0.000    0.000    0.000 __init__.py:799(acquire)
+       12    0.000    0.000    0.000    0.000 __init__.py:806(release)
+        6    0.000    0.000    0.000    0.000 __init__.py:819(format)
+        6    0.000    0.000    0.000    0.000 __init__.py:842(handle)
+        6    0.000    0.000    0.000    0.000 __init__.py:957(flush)
+        6    0.000    0.000    0.000    0.000 __init__.py:968(emit)
+       15    0.000    0.000    0.000    0.000 _collections_abc.py:308(__subclasshook__)
+       15    0.000    0.000    0.000    0.000 _weakrefset.py:16(__init__)
+       15    0.000    0.000    0.000    0.000 _weakrefset.py:20(__enter__)
+       15    0.000    0.000    0.000    0.000 _weakrefset.py:26(__exit__)
+       15    0.000    0.000    0.000    0.000 _weakrefset.py:36(__init__)
+       15    0.000    0.000    0.000    0.000 _weakrefset.py:52(_commit_removals)
+       21    0.000    0.000    0.000    0.000 _weakrefset.py:58(__iter__)
+       26    0.000    0.000    0.000    0.000 _weakrefset.py:70(__contains__)
+       15    0.000    0.000    0.000    0.000 _weakrefset.py:81(add)
+        8    0.000    0.000    0.000    0.000 abc.py:178(__instancecheck__)
+     15/2    0.000    0.000    0.000    0.000 abc.py:194(__subclasscheck__)
+        6    0.000    0.000    0.000    0.000 genericpath.py:111(_splitext)
+    16128    0.007    0.000    0.010    0.000 graph.py:1209(neighbors)
+        8    0.000    0.000    0.000    0.000 graph.py:1253(edges)
+      130    0.000    0.000    0.000    0.000 graph.py:385(__iter__)
+        5    0.000    0.000    0.000    0.000 graph.py:417(__len__)
+        1    0.000    0.000    0.402    0.402 mapping.py:32(__init__)
+    65571    0.012    0.000    0.012    0.000 mapping.py:65(topology)
+        8    0.001    0.000    0.006    0.001 mapping.py:80(cardinality)
+        1    0.000    0.000    0.000    0.000 mapping.py:900(get_initial_mapping)
+        1    0.000    0.000    0.000    0.000 mapping.py:907(<dictcomp>)
+        1    0.000    0.000    0.402    0.402 mapping.py:911(map)
+     8064    0.034    0.000    0.364    0.000 mapping.py:934(gain)
+     8064    0.027    0.000    0.155    0.000 mapping.py:945(<listcomp>)
+     8064    0.002    0.000    0.002    0.000 mapping.py:946(<listcomp>)
+        2    0.015    0.008    0.395    0.198 mapping.py:950(augment)
+        1    0.000    0.000    0.000    0.000 mapping.py:976(jump)
+        6    0.000    0.000    0.000    0.000 posixpath.py:115(splitext)
+        6    0.000    0.000    0.000    0.000 posixpath.py:136(basename)
+        6    0.000    0.000    0.000    0.000 posixpath.py:39(_get_sep)
+        6    0.000    0.000    0.000    0.000 posixpath.py:50(normcase)
+        6    0.000    0.000    0.000    0.000 process.py:137(name)
+        6    0.000    0.000    0.000    0.000 process.py:35(current_process)
+        8    0.000    0.000    0.000    0.000 random.py:220(_randbelow)
+        4    0.000    0.000    0.000    0.000 random.py:280(sample)
+     1064    0.001    0.000    0.001    0.000 reportviews.py:1025(__iter__)
+        8    0.000    0.000    0.000    0.000 reportviews.py:906(__init__)
+        8    0.000    0.000    0.000    0.000 reportviews.py:933(__call__)
+        6    0.000    0.000    0.000    0.000 threading.py:1074(name)
+        6    0.000    0.000    0.000    0.000 threading.py:1224(current_thread)
+   409985    0.133    0.000    0.133    0.000 topology.py:146(neighbours)
+        1    0.000    0.000    0.000    0.000 topology.py:18(__len__)
+        2    0.000    0.000    0.000    0.000 topology.py:49(dim)
+    65568    0.116    0.000    0.249    0.000 topology.py:90(are_neighbors)
+       12    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       15    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       26    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       26    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+     19/9    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+    16258    0.002    0.000    0.002    0.000 {built-in method builtins.iter}
+    15/10    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+    32256    0.007    0.000    0.007    0.000 {built-in method builtins.sum}
+        6    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        6    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        6    0.000    0.000    0.000    0.000 {built-in method time.localtime}
+        6    0.000    0.000    0.000    0.000 {built-in method time.strftime}
+        6    0.000    0.000    0.000    0.000 {built-in method time.time}
+       14    0.000    0.000    0.000    0.000 {method '__subclasses__' of 'type' objects}
+       12    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+       38    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        8    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+     8194    0.016    0.000    0.016    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        6    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+       18    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       11    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+        9    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       12    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+       15    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+       18    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+
+
+(total, avg, min, max)
+IePLC  : (75884703744, 574884120, 296400000, 592865664)
+IaNLC  : (2371200000, 296400001, 296400000, 296400000)
+IeNLC  : (73513503744, 592850837, 592800000, 592865664)
+IeNPC  : (135166804992, 932184863, 296400000, 2371331328)
+WTAD-default : 71806009
+WTAD   : 71806009
+WTAD_AL: 131452019
+NA     : 64
+LA     : 144
+AD     : 3
+DFC    : 192
+Diam   : 9
