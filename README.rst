@@ -28,7 +28,7 @@ MapLib
 | The folder **mapping-matters-Mappings** contains all mappings that were used in the paper:  
 Mapping Matters: Application Process Mapping on 3-D Processor Topologies available at: https://arxiv.org/abs/2005.10413
 
-The sub-folder mapper contains all python files where mapping.py and mapping_compl.py consist of the implemented mapping algorithms.
+The sub-folder **MapLib** contains all Python files where mapping.py and mapping_compl.py consist of the implemented mapping algorithms.
 
 **To install the program:** ``pip3 install --editable .``
 
