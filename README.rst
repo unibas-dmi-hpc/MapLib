@@ -23,8 +23,7 @@ MapLib
 | ``bipartition``   
 ``PaCMap``
 
-The folder **mapping-matters-commMatrices** contains all input communication matrices and the folder **mapping-matters-Mappings** contains all mappings that were used in the paper: 
-
+The folder **mapping-matters-commMatrices** contains all input communication matrices and the folder **mapping-matters-Mappings** contains all mappings that were used in the paper:  
 Mapping Matters: Application Process Mapping on 3-D Processor Topologies available at: https://arxiv.org/abs/2005.10413
 
 The sub-folder mapper contains all python files where mapping.py and mapping_compl.py consist of the implemented mapping algorithms.
