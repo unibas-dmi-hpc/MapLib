@@ -30,7 +30,7 @@ The sub-folder mapper contains all python files where mapping.py and mapping_com
 
 **To install the program:** ``pip3 install --editable .``
 
-**As an example of how to use the library, one can use the provided wrapper.sh script**
+**As an example of how to use the library, one can use the provided** ``wrapper.sh`` **script**
 
 **Acknowledgments**
 
