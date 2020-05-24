@@ -5,7 +5,7 @@ MapLib
 
 **MapLib contains the following process mapping techniques:**
 
-**Communication- and Topology-Oblivious Mapping**
+**Communication- and Topology-Oblivious Mapping:**
 
 | ``Peano``  
 | ``Hilbert``  
@@ -13,7 +13,7 @@ MapLib
 | ``sweep``  
 ``scan``
 
-**Communication- and Topology-Aware Mapping**
+**Communication- and Topology-Aware Mapping:**
 
 | ``Bokhari``  
 | ``topo-aware``  
