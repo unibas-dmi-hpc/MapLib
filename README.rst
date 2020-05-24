@@ -28,9 +28,9 @@ Mapping Matters: Application Process Mapping on 3-D Processor Topologies availab
 
 The sub-folder mapper contains all python files where mapping.py and mapping_compl.py consist of the implemented mapping algorithms.
 
-**To install the program - 'pip3 install --editable .'.**
+**To install the program:** ``pip3 install --editable .``
 
-**As an example of how to use the library, one can use the provided wrapper.sh script.**
+**As an example of how to use the library, one can use the provided wrapper.sh script**
 
 **Acknowledgments**
 
