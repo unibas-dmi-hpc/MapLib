@@ -2,8 +2,8 @@ PYTHON          := python3
 DEPENDENCIES    := requirements.txt
 .PHONY: all
 all:
-	gcc bin/sketch-0.3.7/*.c -lm -o bin/sketch
-
+	#gcc bin/sketch-0.3.7/*.c -lm -o bin/sketch
+	$(PYTHON) -m pip install -r $(DEPENDENCIES)
 # Ask user for password up-front
 .PHONY: sudo
 sudo:
