@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export PYTHONPATH=$PYTHONPATH:$PWD/networkx-metis/lib/python3.8/site-packages/networkx_metis-1.0-py3.8-linux-x86_64.egg/
 comm_matrix="./comm_matrix.p2p.size.csv" #Update this line with the target communication matrix path
 #comm_matrix.p2p.size.csv
 # mappings=(peano hilbert gray sweep scan bokhari topo_aware greedy FHGreedy greedyALLC bipartition pacmap)

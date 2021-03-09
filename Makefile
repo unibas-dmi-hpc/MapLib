@@ -4,6 +4,7 @@ DEPENDENCIES    := requirements.txt
 all:
 	#gcc bin/sketch-0.3.7/*.c -lm -o bin/sketch
 	$(PYTHON) -m pip install -r $(DEPENDENCIES)
+	./install-xmetis.sh
 # Ask user for password up-front
 .PHONY: sudo
 sudo:
