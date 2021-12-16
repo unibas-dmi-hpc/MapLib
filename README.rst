@@ -1,7 +1,14 @@
 ======
 MapLib
 ======
-**MapLib** provides algorithms for generating mapping of processing elements to processor unities
+**MapLib** provides algorithms for generating mapping of processing elements to processor unities to three 3-D topologies: mesh, torus, and HAEC Box. MapLib implements: (i) Communication- and topology-oblivious mapping strategies, which do not take into account the communication matrices of the applications nor the target processor topologies. These algorithms follow a predetermined node ordering to map all processes to the available nodes and produce deterministic mappings. (ii) Communication- and topology-aware mapping strategies, which consider both communication matrices of the applications and target processor topologies. These algorithms produce different mappings for a given application–system pair.
+
+**Paper references**
+
+
+- [J. H. M. Korndörfer, M. Bielert, L. L. Pilla, and F. M. Ciorba, Mapping matters: Application process mapping on 3-d processor topologies, arXiv preprint arXiv:2005.10413 (2020).](https://arxiv.org/abs/2005.10413)
+
+
 
 **MapLib contains the following process mapping techniques:**
 
