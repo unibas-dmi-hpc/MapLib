@@ -8,6 +8,7 @@ MapLib
 
 - [J. H. M. Korndörfer, M. Bielert, L. L. Pilla, and F. M. Ciorba, Mapping matters: Application process mapping on 3-d processor topologies, arXiv preprint arXiv:2005.10413 (2020).](https://arxiv.org/abs/2005.10413)
 
+- Paper presentation recording: https://drive.switch.ch/index.php/s/VaO9f7zT79lvRe2
 
 
 **MapLib contains the following process mapping techniques:**
